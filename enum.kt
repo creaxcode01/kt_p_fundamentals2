@@ -9,11 +9,24 @@ EXTRALARGE(30)
 
 
 
-enum class Letter { 
+enum class Letter {     // pas d'header, un body 
     A, 
     B, 
     C, 
 } 
+
+enum class Charr {
+    y,
+    x,
+    q
+}
+
+enum class twoparam (val animal :Char, val espece :String)
+{
+
+    N('k',"ca"),
+    D('f',"lo"),
+}
 
 
 enum class SecondLetter(val smallLetter :Char, val number :Int) {

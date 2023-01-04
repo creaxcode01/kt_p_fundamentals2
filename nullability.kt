@@ -2,7 +2,7 @@
 // revoir la nullabilité
 
 var name :String = "Hervé"
-var name2 :String? = null  // le "?" veut dire que la valeur peut être soit nulle soit une string
+var name2 :String? = null  // le "?" veut dire que la valeur peut être soit une String soit nulle
 var name3 :String? = null
 var name4 :String? = "écologie"
 
