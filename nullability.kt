@@ -5,6 +5,8 @@ var name :String = "Hervé"
 var name2 :String? = null  // le "?" veut dire que la valeur peut être soit une String soit nulle
 var name3 :String? = null
 var name4 :String? = "écologie"
+var name5 :Char? = 'u'
+val name6 :Char? = null
 
 
 var i :Int? = null 
