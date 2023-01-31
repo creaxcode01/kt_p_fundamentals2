@@ -61,10 +61,12 @@ println(age) // 7          // les arguments doivent suivre l'ordre choisi
 //
 
 
-val tpair = Pair(1.0, 'A') // _Assemblage (dans le même objet)  stockage de la méthode (instanciation objet) grace à Pair( , )
+val tpair = Pair(1.0, 'A') // _Structuration (Assemblage) (dans le même objet)  stockage de la méthode (instanciation objet) grace à Pair( , )
 // or val tpair = 1.0 to A
 println(tpair.first) // 1.0
 println(tpair.second) // A
+
+
 val (numbero, lettero) = tpair  // _Destructuration (sépare en deux variable)
      // the type of numbero is Double, it could be numbero or another name ex: numberx
      // the type of lettero is Char, it could be lettero or another name ex: letterv

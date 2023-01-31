@@ -8,7 +8,7 @@
 
 sealed class IOError {
 constructor() { /*...*/ } // protected by default
-private constructor(description :String): this() { /*...*/ } // private or protected constructors for sealed classes
+private constructor(description :String) :this() { /*...*/ } // private or protected constructors for sealed classes
 // public constructor(code: Int): this() {} // Error: public and internal are not allowed
 }
 
@@ -29,7 +29,7 @@ annotation class MyAnnotation(val someDescription :String)
 @MyAnnotation("Class annotation")
 class A(
  @MyAnnotation("Constructor property annotation")
-val a: Int
+val a :Int
 ) {
  @MyAnnotation("Method annotation")
   fun b() {}

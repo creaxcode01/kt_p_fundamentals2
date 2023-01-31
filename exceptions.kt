@@ -11,12 +11,15 @@ fun main() {
  */
 
  
- fun main(){  // ressemble a un if else mais pour les exception
-    try {
-        val num :Int = "ABC".toInt() // error, impossible de convertir ABC en Int
+ fun main(){   // ressemble a un if else mais pour les exception
+
+    try { // si ça marche faire print ln etc 
+
+        val num :Int = "ABC".toInt()  // error, impossible de convertir ABC en Int
         println(num)
         println("success")
-    } catch (y :NumberFormatException)  { // or catch (y :Throwable)  = Throwable can catch everything, it catches all exceptions
+        // sinon passe à catch sans faire les println 
+    } catch (y :NumberFormatException)  {   // or catch (y :Throwable)  = Throwable can catch everything, it catches all exceptions
         println("Exception Caught")
         println("failure")
     }
